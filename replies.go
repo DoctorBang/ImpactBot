@@ -171,4 +171,8 @@ var replies = []Reply{
 		pattern: `(modpack|\bftb\b|rlcraft|skyfactory|valhelsia|pixelmon|sevtech)`,
 		message: "Impact is generally incompatible with modpacks and support will not be provided if you encounter bugs with them. It's likely your game will just crash on startup.",
 	},
+	{
+		pattern: `1\.17.*?(update|coming|support|release|impact|version|eta|when|out|support)|(update|coming|support|release|impact|version|eta|when|out|support).*?1\.17)`,
+		message: "Shut up about 1.17. It's not even out.",
+	}
 }
