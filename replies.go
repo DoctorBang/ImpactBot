@@ -161,7 +161,7 @@ var replies = []Reply{
 	},
 	{
 		pattern: `(1\.16.*?(update|coming|support|release|impact|version|eta|when|out|support)|(update|coming|support|release|impact|version|eta|when|out|support).*?1\.16)`,
-		message: "Limited progress has started on the 1.16 release, but there is currently no ETA. A message will be posted in <#" + announcements + "> when nightly builds are available.",
+		message: "Impact 1.16.4 is now availible for donators in it's early stages.",
 	},
 	{
 		pattern: `(impact.+(1\.8|1\.7))|((1\.8|1\.7).impact)`,
